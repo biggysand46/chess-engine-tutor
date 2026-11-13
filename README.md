@@ -27,7 +27,7 @@ The computer opponent is built from standard game-tree search techniques, with n
 | **Board evaluation** | Material values (pawn 100, knight 300, bishop 300, rook 500, queen 900) plus piece-square tables. The king's table changes in the endgame. |
 
 The three difficulty levels give distinct play: in my test positions the levels often chose different moves, and the Easy level makes frequent blunders on purpose.
-The search depth used for each level, Easy = depth 1, Medium = depth 2, Hard = depth 3 + quiescence
+The search depth used for each level, Easy = depth 1, Medium = depth 2, Hard = depth 3 + quiescence.
 A depth of 3 with quiescence is shallow compared with real engines, but sufficient for a learning project.
 
 ## Architecture
