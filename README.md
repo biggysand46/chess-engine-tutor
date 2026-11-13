@@ -13,7 +13,7 @@ An offline chess application for learning and practising chess, written in Pytho
 - **AI mode:** play against Easy, Medium or Hard computer opponents.
 - **Accounts and progress tracking:** sign up and sign in, with tutorial, puzzle and AI progress stored in SQLite and shown on an account screen.
 - **Fully offline:** no internet connection is needed for any mode.
-- **Full rules:** legal move checking, check, checkmate, draws, castling, en passant and promotion, with FEN loading and PGN output.
+- **Full rules:** legal move checking, check, checkmate, draws, castling, en passant and promotion, with FEN loading.
 
 ## The AI
 
